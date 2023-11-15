@@ -22,8 +22,7 @@ export const useFavoriteShoesState = () => {
   };
 
   return {
-    favoriteShoes: favoriteShoes,
-    setFavoriteShoes: setFavoriteShoes,
-    addOrRemoveFromFavorite: addOrRemoveFromFavorite
+    favoriteShoes,
+    addOrRemoveFromFavorite
   };
 };
