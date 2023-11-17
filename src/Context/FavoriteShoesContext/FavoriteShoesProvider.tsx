@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { useFavoriteShoesState } from "../../Hooks/useFavoriteShoesState";
+import { useFavoriteShoesState } from "../../Hooks/FavoriteShoesState/useFavoriteShoesState";
 import { FavoriteShoesContext } from "./FavoriteShoesContext";
 
 export const FavoriteShoesContextProvider = ({

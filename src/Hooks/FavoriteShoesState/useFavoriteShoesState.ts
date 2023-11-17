@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Shoe } from "../types";
+import { Shoe } from "../../types";
 
 export const useFavoriteShoesState = () => {
   const [favoriteShoes, setFavoriteShoes] = useState<Pick<Shoe, "id">[]>([]);

@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { BasketProducts, Shoe } from "../types";
+import { BasketProducts, Shoe } from "../../types";
 
 export const useBasketState = () => {
   const [basketProducts, setBasketProducts] = useState<BasketProducts[]>([]);

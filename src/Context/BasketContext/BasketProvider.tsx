@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { useBasketState } from "../../Hooks/useBasketState";
+import { useBasketState } from "../../Hooks/BasketState/useBasketState";
 import { BasketContext } from "./BasketContex";
 
 export const BasketContextProvider = ({
